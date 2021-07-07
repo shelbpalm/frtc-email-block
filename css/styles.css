@@ -1,0 +1,41 @@
+body {
+  padding: 40px;
+  background: #eee;
+  font-family: "Calibri", sans-serif;
+}
+.heading {
+}
+.form {
+  width: 400px;
+  float: left;
+  margin-right: 20px;
+}
+input {
+  width: 380px;
+  margin-bottom: 5px;
+  padding: 14px 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.signature {
+  float: left;
+  width: 400px;
+  padding: 10px 20px;
+  background: #fff;
+  border-radius: 5px;
+}
+.logo {
+  color: #0171b9;
+  text-decoration: none;
+  border-bottom: 2px solid #0171b9;
+}
+.address {
+  color: #0171b9;
+}
+#textName {
+  font-weight: bold;
+}
+
+#textTitle {
+  font-style: italic;
+}

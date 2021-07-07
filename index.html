@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FRTC Employee Email Signatures</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+
+<body>
+  <div class="heading">
+    <h1>FRTC Email Signature Generator</h1>
+    <p>Enter your information into the form below, and copy and paste the result into your email signature settings.</p>
+  </div>
+  <!-- Input Block   -->
+  <div class="form">
+
+    <input name="name" id="nameInput" type="text" value="" placeholder="Full name"></input>
+    <br />
+    <input name="name" id="programInput" type="text" value="" placeholder="Program title"></input>
+    <br />
+    <input name="name" id="titleInput" type="text" value="" placeholder="Job title"></input>
+    <br />
+    <input name="email" id="emailInput" type="email" value="" placeholder="Email"></input>
+    <br />
+    <input name="phone" id="phoneInput" type="text" value="" placeholder="Phone number (XXX.XXX.XXXX)"></input>
+
+  </div>
+  <!-- Signature Block -->
+  <div class="signature">
+
+    <table>
+      <tbody>
+        <tr>
+          <td align="left">
+            <p>—</p>
+            <p>
+              <span id="textName" class="signature_name">Your Name</span>
+              <br>
+              <span id="textProgram" class="signature_prog_title">Program Title</span> | <span id="textTitle" class="signature_job_title">Job Title</span>
+              <br>
+              <span id="textEmail" class="signature_email">email@ewu.edu</span><br>
+              <span id="textPhone" class="signature_phone">XXX.XXX.XXXX</span>
+            </p>
+            <p>
+              <a class="logo" href="https://familyrtc.org/" target="_blank"><span class="txt signature_companyname-target sig-hide">Family Resource & Training Center</span></a>
+              <br />
+              <span class="address">2005 Ironwood Parkway Suite 200, Couer d'Alene, ID</span>
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="/js/scripts.js"></script>
+</body>
+
+</html>
