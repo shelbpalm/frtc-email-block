@@ -49,3 +49,14 @@ input {
 #textTitle {
   font-style: italic;
 }
+
+.button {
+  display: flex;
+  border: rgba(0, 0, 0, 0) solid 1px;
+  justify-content: flex-end;
+}
+/* button {
+  margin: 8px 0px;
+  padding: 8px;
+  font-weight: bold;
+} */

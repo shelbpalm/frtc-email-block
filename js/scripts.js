@@ -29,3 +29,13 @@ $("#phoneInput").on("input", function (e) {
   var phoneInput = $("#phoneInput").val();
   textPhone.text(phoneInput);
 });
+
+// copy to clipboard
+
+// function copyToClipboard(element) {
+//   var $temp = $("<input>");
+//   $("body").append($temp);
+//   $temp.val($(element).text()).select();
+//   document.execCommand("copy");
+//   $temp.remove();
+// }
