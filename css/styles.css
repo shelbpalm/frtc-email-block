@@ -3,10 +3,15 @@ body {
   background: #eee;
   font-family: "Calibri", sans-serif;
 }
-p {
-  /* font-size: 12px; */
+
+.wrapper {
+  width: 860px;
+  margin: 0 auto;
+  padding: 15px;
 }
-.heading {
+
+.heading h1 {
+  text-align: center;
 }
 .form {
   width: 400px;
@@ -16,7 +21,7 @@ p {
 input {
   width: 380px;
   margin-bottom: 5px;
-  padding: 14px 8px;
+  padding: 12px 6px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -26,7 +31,7 @@ input {
   padding: 10px 20px;
   background: #fff;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .logo {
   color: #0171b9;
