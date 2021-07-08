@@ -3,6 +3,9 @@ body {
   background: #eee;
   font-family: "Calibri", sans-serif;
 }
+p {
+  font-size: 12px;
+}
 .heading {
 }
 .form {
@@ -34,6 +37,7 @@ input {
 }
 #textName {
   font-weight: bold;
+  font-size: 14px;
 }
 
 #textTitle {
