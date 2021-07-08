@@ -55,6 +55,9 @@ input {
   border: rgba(0, 0, 0, 0) solid 1px;
   justify-content: flex-end;
 }
+.eagle img {
+  width: 100px;
+}
 /* button {
   margin: 8px 0px;
   padding: 8px;
